@@ -2,9 +2,11 @@ from google import genai
 import os
 from dotenv import load_dotenv
 
+
 load_dotenv()
 
 topic = input('Kindly enter a topic. Include any sub-details if reuqired\n')
+
 
 
 client = genai.Client()
